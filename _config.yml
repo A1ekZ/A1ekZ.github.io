@@ -1,2 +1,4 @@
 name: Alek Zywot, Data Wiz
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
