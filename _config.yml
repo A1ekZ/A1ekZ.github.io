@@ -1,4 +1,6 @@
 name: Alek Zywot, Data Wiz
 markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.15.2"
 plugins:
   - jekyll-sitemap
+  - jekyll-include-cache
