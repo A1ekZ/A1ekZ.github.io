@@ -1,4 +1,11 @@
+# General Jekyll Config
 name: Alek Zywot, Data Wiz
+description: Aleksander Zywot: Researcher | Physician | Data Wiz
+url: "https://a1ekz.github.io/"
+
+exclude: [README.md, .gitignore]
+
+# Build Settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 plugins:
