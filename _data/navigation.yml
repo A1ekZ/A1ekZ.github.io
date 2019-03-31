@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Home"
+    url: https://a1ekz.github.io/
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: /CV/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
