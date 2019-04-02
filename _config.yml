@@ -8,7 +8,7 @@ exclude: [README.md, .gitignore]
 # Build Settings
 markdown: kramdown
 #theme: jekyll-theme-slate
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-sitemap
   - jekyll-include-cache
