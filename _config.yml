@@ -1,6 +1,6 @@
 # General Jekyll Config
-name: Alek Zywot, Data Wiz
-description: "Researcher | Physician | Data Wiz"
+name: Aleksander Zywot, MD
+description: "Researcher | Physician | Data Scientist"
 url: "https://a1ekz.github.io/"
 
 exclude: [README.md, .gitignore]
@@ -8,7 +8,7 @@ exclude: [README.md, .gitignore]
 # Build Settings
 markdown: kramdown
 #theme: jekyll-theme-slate
-theme: minimal-mistakes-jekyll
+remote theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-sitemap
   - jekyll-include-cache
