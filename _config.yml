@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://A1ekZ.github.io"
-baseurl: 
+baseurl: ""
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -13,17 +13,19 @@ baseurl:
 title: Aleksander Zywot, MD
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Healthcare Researcher | Physician | Data Scientist
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
 
-  Projects:
-#    - Publications: "Publications"
-#  CV: "CV"
-  About Me: "aboutme"
+  Research Projects: "research"
+  Blog: "blog"
+  About Me: 
+      - Who I Am: "aboutme"
+      - Publications: "publications"
+      - Resume: "resume"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -37,7 +39,7 @@ avatar: "/img/avatar-icon.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#003366"
 navbar-text-col: "#e6e6e6"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
@@ -66,14 +68,14 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
 #  email: "someone@example.com"
 #  facebook: daattali
   github: A1ekZ
   twitter: Alek_Zywot
 #  reddit: yourname
 #  google-plus: +DeanAttali
-#  linkedin: daattali
+  linkedin: Zywot
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
