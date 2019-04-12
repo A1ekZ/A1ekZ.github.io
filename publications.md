@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications & Presentations
+title: Publications
 subtitle:
 use-site-title: true
 ---
