@@ -26,8 +26,7 @@ navbar-links:
 # Image to show in the navigation bar - image must be a square (width = height)
 avatar: "/img/red-megaman.png"
 
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
+# To have an image logo in the top-left corner instead of the title text:
 # title-img: /path/to/image
 
 # --- Background colour/image options --- #
@@ -35,7 +34,7 @@ avatar: "/img/red-megaman.png"
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 navbar-col: "#003366"
 navbar-text-col: "#FFFFFF"
-navbar-children-col: "#FFFFFF"
+navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
@@ -52,44 +51,28 @@ footer-link-col: "#404040"
 
 # --- Footer options --- #
 
-# Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Aleksander Zywot
 
 # Select your active Social Network Links.
-# Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 #  rss: false
 #  email: "someone@example.com"
-#  facebook: daattali
   github: A1ekZ
   twitter: Alek_Zywot
 #  reddit: yourname
-#  google-plus: +DeanAttali
   linkedin: Zywot
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  youtube: user/deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
+#  stackoverflow: ""
 
 # Select which share links to show in posts
-share-links-active:
-  twitter: true
-#  facebook: true
-#  google: false
-  linkedin: true
+# share-links-active:
+#  twitter: true
+#  linkedin: true
 
 # How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
 url-pretty: "A1ekZ.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
@@ -103,24 +86,12 @@ google_analytics: "UA-137552986-1"
 # Google Tag Manager ID
 #gtm: ""
 
-# Matomo (aka Piwik) Web statistics
-# Uncomment the following section to enable Matomo. The opt-out parameter controls
-# whether or not you want to allow users to opt out of tracking.
-
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
-
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
 # disqus: ""
 # If you want to use just-comments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
-
-# To use Facebook Comments, fill in a Facebook App ID
-# fb_comment_id: ""
 
 # Staticman support
 staticman:
@@ -134,9 +105,6 @@ staticman:
     secret   : # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
-
-# Facebook App ID
-# fb_app_id: ""
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
