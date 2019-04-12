@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Publications
-subtitle: My publications and presentations
+title: Publications & Presentations
+subtitle:
 use-site-title: true
 ---
 
