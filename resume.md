@@ -1,12 +1,7 @@
 ---
-layout: default
-title: CV
-home: passive
-cv: active
-projects: passive
-notes: passive
-contact: passive
-description: Current CV
+layout: page
+title: Resume
+subtitle: My resume
 ---
 
 # Alek Zywot
