@@ -2,7 +2,7 @@
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-url: "https://A1ekZ.github.io"
+url: "https://Alek-Zywot.github.io"
 baseurl: ""
 
 # Name of website
@@ -72,7 +72,7 @@ social-network-links:
 #  linkedin: true
 
 # How to display the link to the website in the footer
-url-pretty: "A1ekZ.github.io"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "Alek-Zywot"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
