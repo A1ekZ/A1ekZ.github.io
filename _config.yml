@@ -77,10 +77,10 @@ url-pretty: "Alek-Zywot"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-gtag: "UA-137552986-1"
+gtag: "UA-137552986-2"
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-137552986-1"
+google_analytics: "UA-137552986-2"
 
 # Google Tag Manager ID
 #gtm: ""
