@@ -829,3 +829,23 @@ td.gutter {
     -o-transition: height 1s 1s;
     transition: height 1s 1s
 }
+
+.intro--home .entry .entry__title-inner {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.intro--home .entry h1 {
+    margin: 0;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-size: 4.5vw;
+    line-height: 1.27;
+    color: #f2e4d6;
+    text-transform: uppercase;
+    text-align: left
+}
