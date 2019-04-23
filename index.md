@@ -5,7 +5,7 @@ css: home.css
 googlefonts: ["Lato"]
 ---
 
-
+<style>
 body {
     position: relative;
     width: 100vw;
@@ -16,7 +16,7 @@ body {
     transition: opacity .5s, visibility .5s;
     z-index: 50
 }
-
+</style>
 
 <div class="section__image" style="background-image: url(https://alek-zywot@github.io/img/Alek.jpeg);">
 			<img src="https://alek-zywot@github.io/img/Alek.jpeg" alt="">
