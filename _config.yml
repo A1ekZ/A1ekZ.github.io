@@ -34,7 +34,7 @@ navbar-col: "#1D253C"
 navbar-text-col: "#F2E4D6"
 navbar-children-col: "#1D253C"
 page-col: "#FFFFFF"
-link-col: "#F2E4D6"
+# link-col: "#F2E4D6"
 hover-col: "#F2BA42"
 footer-col: "#1D253C"
 footer-text-col: "#F2E4D6"
@@ -58,12 +58,12 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 #  rss: false
-#  email: "someone@example.com"
+  email: "Alek@Alek-Zywot.com"
   github: Alek-Zywot
   twitter: Alek_Zywot
 #  reddit: yourname
   linkedin: Zywot
-#  stackoverflow: ""
+  stackoverflow: "Alek-Zywot"
 
 # Select which share links to show in posts
 share-links-active:
