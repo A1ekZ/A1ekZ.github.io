@@ -7,15 +7,63 @@ layout: page
 			background-color: #1d253c;
 			color: #d3d3d3;
 		}
+		intro--home {
+		    position: relative;
+		    width: 100vw;
+		    min-height: 100vh;
+		    background: #1d253c;
+		    -webkit-transition: opacity .5s, visibility .5s;
+		    -o-transition: opacity .5s, visibility .5s;
+		    transition: opacity .5s, visibility .5s;
+		    z-index: 50
+		}
+
+		intro--home, section__image {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    bottom: 0;
+		    width: 33.33%;
+		    height: 100%;
+		    background-repeat: no-repeat;
+		    background-position: 50%;
+		    background-size: cover;
+		    z-index: 3;
+		    overflow: hidden
+		}
+
+		intro--home, entry {
+		    position: absolute;
+		    top: 50%;
+		    left: 0;
+		    right: 0;
+		    -webkit-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		    transform: translateY(-50%)
+		}
+
+		intro--home, entry, h1 {
+		    margin: 0;
+		    font-family: aktiv-grotesk-extended, sans-serif;
+		    font-size: 4.5vw;
+		    line-height: 1.27;
+		    color: #f2e4d6;
+		    text-transform: uppercase;
+		    text-align: left
+		}
 	</style>
 </head>
 
 <body>
 	<div class="container">
-		<div class="section__image" style="background-image: url(https://alek-zywot@github.io/img/Alek.jpeg);">
-			<img src="{{ site.baseurl }}/img/Alek.jpeg"/>
-			<h1 style="text-align: left;">USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING</h1>
-			<h1 style="text-align: left;">TO OVERCOME TODAY'S HEALTH CHALLENGES</h1>
+		<div class="intro--home">
+			<div class="section__image" style="background-image: url(https://alek-zywot@github.io/img/Alek.jpeg);">
+				<img src="{{ site.baseurl }}/img/Alek.jpeg"/>
+			</div>
+			<div="entry">
+				<h1 style="text-align: left;">USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING</h1>
+				<h1 style="text-align: left;">TO OVERCOME TODAY'S HEALTH CHALLENGES</h1>
+			</div>
 		</div>
 	</div>
 </div>
