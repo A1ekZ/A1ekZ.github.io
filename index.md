@@ -1,10 +1,28 @@
 ---
 layout: page
-bg: blue
-title: Hey, I'm Alek
-use-site-title: flase
+title: Hey, I'm Alek!
+permalink: /index.html
 ---
 
+
+<head>
+<style>
+body {
+    background-color: #1e90ff;
+}
+</style>
+</head>
+<body>
+
+
 <div class="text-center">
-  <p class="lead">I'm a healthcare researcher.</p>
+
+  <img src="{{ site.baseurl }}/img/Alek.jpeg" align="left"/>
+  <h1>USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING<br>TO OVERCOME TODAY'S HEALTH CHALLENGES </h1>
 </div>
+
+</body>
+
+
+
+
