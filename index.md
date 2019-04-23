@@ -20,7 +20,7 @@ body {
 
 <body>
 <div class="section__image" style="background-image: url(https://alek-zywot@github.io/img/Alek.jpeg);">
-			<img src="https://alek-zywot@github.io/img/Alek.jpeg" alt="">
+			<img src="{{ site.baseurl }}/img/Alek.jpeg"/>
 		</div>
 <div class="text-right">
   <h1>USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING<br>TO OVERCOME TODAY'S HEALTH CHALLENGES </h1>
