@@ -3,7 +3,6 @@ layout: page
 title: Hey, I'm Alek!
 css: index.css
 googlefonts: ["Lato"]
-permalink: /index.html
 ---
 
 
