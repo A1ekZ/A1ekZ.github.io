@@ -16,10 +16,10 @@ description: Healthcare Researcher | Physician | Data Scientist
 # List of links in the navigation bar
 navbar-links:
 #  Home: "index"
-  Meet Alek: "aboutme"
+  Meet Alek: "meet-alek"
   
   Research: "research"
-  Projects: "index_posts"
+  Projects: "projects"
   
 # Image to show in the navigation bar - image must be a square (width = height)
 avatar: "/img/red-megaman.png"
