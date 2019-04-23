@@ -1,8 +1,9 @@
 ---
 layout: page
-title: My Blog
+title: My Projects
 subtitle: This is where I share my ideas.
 use-site-title: true
+published: true
 ---
 
 <div class="posts-list">
