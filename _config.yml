@@ -60,19 +60,19 @@ author:
 social-network-links:
 #  rss: false
 #  email: "someone@example.com"
-  github: A1ekZ
+  github: Alek-Zywot
   twitter: Alek_Zywot
 #  reddit: yourname
   linkedin: Zywot
 #  stackoverflow: ""
 
 # Select which share links to show in posts
-# share-links-active:
-#  twitter: true
-#  linkedin: true
+share-links-active:
+ twitter: true
+ linkedin: true
 
 # How to display the link to the website in the footer
-url-pretty: "Alek-Zywot"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "Alek-Zywot.com"  
 
 # --- Web Statistics Section --- #
 
