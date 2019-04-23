@@ -1,5 +1,6 @@
 ---
 layout: page
+bg: blue
 title: Hey, I'm Alek
 subtitle: This is where I will tell my friends way too much about me
 use-site-title: true
