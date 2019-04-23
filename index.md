@@ -1,32 +1,20 @@
 ---
 layout: page
 title: Hey, I'm Alek!
-css: home.css
-googlefonts: ["Lato"]
 ---
-	
-<style>
-body {
-    position: relative;
-    width: 100vw;
-    min-height: 100vh;
-    background: #1d253c;
-    -webkit-transition: opacity .5s, visibility .5s;
-    -o-transition: opacity .5s, visibility .5s;
-    transition: opacity .5s, visibility .5s;
-    z-index: 50
-}
-</style>
-
-<body>
-<div class="section__image" style="background-image: url(https://alek-zywot@github.io/img/Alek.jpeg);">
+<section class=​"section intro--home">​
+	<div class="section__image" style="background-image: url({{ site.baseurl }}/img/Alek.jpeg);">
+		::before
 			<img src="{{ site.baseurl }}/img/Alek.jpeg"/>
-		</div>
-<div class="text-center">
-  <h1>USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING<br>TO OVERCOME TODAY'S HEALTH CHALLENGES </h1>
+		::after
+	</div>
+	<div class="entry__title-inner">
+		<h1 style="text-align: left;">a <span style="color: #e9b634;">fresh start</span></h1>
+<h1 style="text-align: left;">for America</h1>
+	</div>
+
 </div>
-</body>
+</section>
 
 
-
-
+  <h1>USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING<br>TO OVERCOME TODAY'S HEALTH CHALLENGES </h1>
