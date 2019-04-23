@@ -15,10 +15,10 @@ description: Healthcare Researcher | Physician | Data Scientist
 
 # List of links in the navigation bar
 navbar-links:
-  Home: _pages/"index"
-  Meet Alek: _pages/"aboutme"
+  Home: _pages/index
+  Meet Alek: _pages/aboutme
   
-  Research: "_pages/research"
+  Research: _pages/research
   Projects: _pages/blog
   
 # Image to show in the navigation bar - image must be a square (width = height)
