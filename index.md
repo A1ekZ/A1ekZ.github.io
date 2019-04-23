@@ -4,7 +4,7 @@ title: Hey, I'm Alek!
 css: home.css
 googlefonts: ["Lato"]
 ---
-
+	
 <style>
 body {
     position: relative;
@@ -18,15 +18,14 @@ body {
 }
 </style>
 
+<body>
 <div class="section__image" style="background-image: url(https://alek-zywot@github.io/img/Alek.jpeg);">
 			<img src="https://alek-zywot@github.io/img/Alek.jpeg" alt="">
 		</div>
-
-
 <div class="text-right">
   <h1>USING DYNAMIC REAL-WORLD DATA AND MACHINE LEARNING<br>TO OVERCOME TODAY'S HEALTH CHALLENGES </h1>
 </div>
-
+</body>
 
 
 
