@@ -31,8 +31,8 @@ avatar: "/img/red-megaman.png"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 navbar-col: "#1D253C"
-navbar-text-col: "#a9a9a9"
-navbar-children-col: "#1D253C"
+navbar-text-col: "#lightgrey"
+navbar-children-col: "#lightgrey"
 page-col: "#FFFFFF"
 link-col: "#696969"
 hover-col: "#F2BA42"
