@@ -789,9 +789,9 @@ td.gutter {
   font-size: 16px;
 }
 
-/* Home Intro */
+/* Home Page */
 
-.intro--home {
+.home-section {
     position: relative;
     width: 100vw;
     min-height: 100vh;
