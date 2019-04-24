@@ -9,6 +9,30 @@ body {
   background-color: #1D253C;
 }
 
+.col-lg-8 .col-lg-offset-2 .col-md-10 .col-md-offset-1 {
+  min-width: 100vw; 
+  min-height: 60vh;
+  margin: 0;
+}
+
+.col-lg-8 {
+  min-width: 100vw; 
+  min-height: 60vh;
+  margin: 0;
+}
+
+.col-lg-offset-2 .col-md-10 .col-md-offset-1 {
+  min-width: 100vw; 
+  min-height: 60vh;
+  margin: 0;
+}
+
+.col-md-10 .col-md-offset-1 {
+  min-width: 100vw; 
+  min-height: 60vh;
+  margin: 0;
+}
+
 .container {
   min-width: 100vw; 
   min-height: 60vh;
@@ -42,71 +66,3 @@ body {
   color: #d3d3d3; 
   text-align: left;
 }
-
-.col-lg-8 .col-lg-offset-2 .col-md-10 .col-md-offset-1 {
-  min-width: 100vw; 
-  min-height: 60vh;
-  margin: 0;
-}
-
-/* Home Intro */
-/*
-.intro--home {
-    position: relative;
-    width: 100vw;
-    min-height: 100vh;
-    background: #1d253c;
-    -webkit-transition: opacity .5s, visibility .5s;
-    -o-transition: opacity .5s, visibility .5s;
-    transition: opacity .5s, visibility .5s;
-    z-index: 50
-}
-
-.intro--home .section__image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 33.33%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: cover;
-    z-index: 3;
-    overflow: hidden
-}
-
-.intro--home .section__image:after, .intro--home .section__image:before {
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 0;
-    display: block;
-    content: "";
-    background: #1d253c;
-    -webkit-transition: height 1s 1s;
-    -o-transition: height 1s 1s;
-    transition: height 1s 1s
-}
-
-.intro--home .entry .entry__title-inner {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%)
-}
-
-.intro--home .entry h1 {
-    margin: 0;
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-size: 4.5vw;
-    line-height: 1.27;
-    color: #f2e4d6;
-    text-transform: uppercase;
-    text-align: left
-}
-*/
