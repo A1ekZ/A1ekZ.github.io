@@ -43,7 +43,7 @@ body {
   text-align: left;
 }
 
-.col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 {
+.col-lg-8 .col-lg-offset-2 .col-md-10 .col-md-offset-1 {
   min-width: 100vw; 
   min-height: 60vh;
   margin: 0;
