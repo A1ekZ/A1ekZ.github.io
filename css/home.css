@@ -27,20 +27,27 @@ body {
   float: left
 }
 
-.home_text {
+.home_text_wrap {
   position: absolute;  
   width: 60%;    
   top: 10%;    
   right: 0; 
   text-align: center;    
   margin-right: 20px;
-  font-size:3vh;
-  color: #d3d3d3;
+}
+
+.home_text_wrap {
+  margin: 0; 
+  line-height: 1.15;    
+  color: #d3d3d3; 
+  text-align: left;
 }
 
 .col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 {
+  min-width: 100vw; 
+  min-height: 60vh;
 }
-  
+
 /* Home Intro */
 /*
 .intro--home {
