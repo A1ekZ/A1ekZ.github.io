@@ -9,6 +9,36 @@ body {
   background-color: #1D253C;
 }
 
+.container {
+  min-width: 100vw; 
+  min-height: 60vh;
+}
+
+.home_image {
+  position: relavtive; 
+  top: 10%; 
+  left: 0; 
+  bottom: 0; 
+  width: 33.33%; 
+  height: 100%; 
+  background-repeat: no-repeat;    
+  background-position: 50%;    
+  background-size: cover; 
+  float: left
+}
+
+.home_text {
+  position: absolute;  
+  width: 60%;    
+  top: 10%;    
+  right: 0; 
+  text-align: center;    
+  margin-right: 20px;
+  font-size:3vh;
+  color: #d3d3d3;
+}
+
+  
 /* Home Intro */
 /*
 .intro--home {
